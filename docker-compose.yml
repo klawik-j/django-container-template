@@ -9,8 +9,7 @@ services:
         env_file: 
             - .env
     backend:
-        build:
-            dockerfile: Dockerfile
+        build: .
         container_name: django-backend
         restart: unless-stopped
         ports: 

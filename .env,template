@@ -1,0 +1,14 @@
+# adjust to your needs and rename as .env
+PRODUCTION=0
+
+SERVER_IP=domain.tld
+DEV_IP=0.0.0.0
+DJANGO_PORT=8080
+POSTGRES_NAME=
+POSTGRES_USER=
+POSTGRES_PASSWORD=
+POSTGRES_SERVICE=sudoku-backend-db
+POSTGRES_PORT=5432
+
+# eg. base64 /dev/urandom | head -c 50
+SECRET_KEY=
